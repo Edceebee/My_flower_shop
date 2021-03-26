@@ -143,6 +143,10 @@ body {
     color: blueviolet;
 }
 
+#second_block p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
 /* .right{
     position: fixed;
     top: 0;
