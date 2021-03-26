@@ -4,12 +4,20 @@
   padding: 0;
 }
 
-body {
+.web_container{
+  width: auto;
+  height: 100%;
+  min-width: 800px;
+  min-height: 1000px;
+  margin: 0 auto;
+  }
+
+/* body {
  
   padding: auto;
   font-size: xx-large;
   
-} 
+}  */
 
 #nav {
   display: flex;
@@ -115,8 +123,15 @@ body {
         height: 600px;    
         padding-top: 200px; 
         padding-left: 100px;   
-        max-width: fit-content;           
-}
+        max-width: fit-content;   
+        
+          /* width: 100%; */
+          height: 100%;
+          min-width: 1200px;
+          min-height: 1000px;
+          margin: 0 auto;
+          }       
+
 
 #flower {
     color: darkgoldenrod;
@@ -145,7 +160,7 @@ body {
 
 #second_block p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
+  font-size: 30px;
 }
 /* .right{
     position: fixed;
